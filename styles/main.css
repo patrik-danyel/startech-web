@@ -485,10 +485,11 @@
 
         .partner-logo {
             height: 60px;
+            max-width: 150px;
             width: auto;
             object-fit: contain;
             filter: grayscale(100%) opacity(0.5);
-            transition: all 0.3s;
+            transition: all 0.5s;
             flex-shrink: 0;
         }
 
