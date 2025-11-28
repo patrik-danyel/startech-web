@@ -134,7 +134,7 @@
 
         /* Institutional Section */
         .institutional {
-            padding: 120px 1rem 60px;
+            padding: 150px 2rem 800px;
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             min-height: 100vh;
         }
@@ -142,13 +142,13 @@
         .institutional-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap:1.52rem;
-            margin-top: 2rem;
+            gap: 2rem;
+            margin-top: 3rem;
         }
 
         .institutional-card {
             background: white;
-            padding: 2rem 1.5rem;
+            padding: 2.5rem;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             border-left: 5px solid #00bfff;
@@ -168,8 +168,6 @@
         }
 
         .institutional-icon svg {
-            width: 40px;
-            height: 40px;
             transition: transform 0.3s;
         }
 
@@ -178,7 +176,7 @@
         }
 
         .institutional-card h3 {
-            font-size: 158rem;
+            font-size: 1.8;
             margin-bottom: 1rem;
             color: #0a1128;
         }
@@ -186,7 +184,7 @@
         .institutional-card p {
             color: #666;
             line-height: 1.8;
-            font-size: 0.95rem;
+            font-size: 1.05rem;
         }
 
         .institutional-card ul {
@@ -196,8 +194,8 @@
         }
 
         .institutional-card ul li {
-            font-size: 0.9rem;
-            padding: 0.4rem 0;
+            
+            padding: 0.5rem 0;
             color: #555;
             padding-left: 1.5rem;
             position: relative;
