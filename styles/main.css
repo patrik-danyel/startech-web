@@ -134,7 +134,7 @@
 
         /* Institutional Section */
         .institutional {
-            padding: 150px 2rem 80px;
+            padding: 120px 1rem 60px;
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             min-height: 100vh;
         }
@@ -142,13 +142,13 @@
         .institutional-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
+            gap:1.52rem;
+            margin-top: 2rem;
         }
 
         .institutional-card {
             background: white;
-            padding: 2.5rem;
+            padding: 2rem 1.5rem;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             border-left: 5px solid #00bfff;
@@ -168,6 +168,8 @@
         }
 
         .institutional-icon svg {
+            width: 40px;
+            height: 40px;
             transition: transform 0.3s;
         }
 
@@ -176,7 +178,7 @@
         }
 
         .institutional-card h3 {
-            font-size: 1.8rem;
+            font-size: 158rem;
             margin-bottom: 1rem;
             color: #0a1128;
         }
@@ -184,7 +186,7 @@
         .institutional-card p {
             color: #666;
             line-height: 1.8;
-            font-size: 1.05rem;
+            font-size: 0.95rem;
         }
 
         .institutional-card ul {
@@ -194,7 +196,8 @@
         }
 
         .institutional-card ul li {
-            padding: 0.5rem 0;
+            font-size: 0.9rem;
+            padding: 0.4rem 0;
             color: #555;
             padding-left: 1.5rem;
             position: relative;
@@ -426,7 +429,7 @@
         }
 
         .coverage-text h2 {
-            font-size: 2.5rem;
+            font-size: 1.8rem;
             margin-bottom: 1.5rem;
             color: #0a1128;
         }
@@ -434,15 +437,18 @@
         .coverage-text h2 span {
             color: #00bfff;
         }
+        .coverage-text p {
+            font-size: 0.95rem;
 
+        }
         .coverage-list {
             list-style: none;
-            margin: 2rem 0;
+            margin: 1.5rem 0;
         }
 
         .coverage-list li {
-            padding: 0.8rem 0;
-            font-size: 1.1rem;
+            padding: 0.6rem 0;
+            font-size: 1rem;
             color: #666;
             border-bottom: 1px solid #eee;
         }
@@ -457,15 +463,15 @@
 
         /* Partners Carousel */
         .partners {
-            padding: 60px 2rem;
+            padding: 50px 1rem;
             background: white;
             overflow: hidden;
         }
 
         .partners-title {
             text-align: center;
-            font-size: 1.8rem;
-            margin-bottom: 3rem;
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
             color: #0a1128;
         }
 
@@ -478,13 +484,13 @@
 
         .carousel-track {
             display: flex;
-            gap: 4rem;
+            gap: 2.5rem;
             animation: scroll 30s linear infinite;
             width: fit-content;
         }
 
         .partner-logo {
-            height: 60px;
+            height: 40px;
             max-width: 150px;
             width: auto;
             object-fit: contain;
@@ -515,30 +521,30 @@
         .cta {
             background: linear-gradient(135deg, #00bfff 0%, #0080ff 100%);
             color: white;
-            padding: 80px 2rem;
+            padding: 60px 1.5rem;
             text-align: center;
         }
 
         .cta h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
         }
 
         .cta p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
             opacity: 0.95;
         }
 
         .btn {
             display: inline-block;
-            padding: 1rem 3rem;
+            padding: 0.9rem 2rem;
             background: white;
             color: #00bfff;
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
-            font-size: 1.1rem;
+            font-size: 1rem;
             transition: all 0.3s;
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
@@ -553,10 +559,10 @@
         /* WhatsApp Button */
         .whatsapp-float {
             position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 30px;
-            right: 30px;
+            width: 55px;
+            height: 55px;
+            bottom: 20px;
+            right: 20px;
             background-color: #25d366;
             color: white;
             border-radius: 50px;
@@ -571,6 +577,10 @@
             transition: all 0.3s;
             animation: pulse 2s infinite;
         }
+        .whatsapp-float svg {
+            width: 26px;  
+            height: 26px;
+        }
 
         .whatsapp-float:hover {
             background-color: #128c7e;
@@ -582,10 +592,13 @@
             background: #0a1128;
             color: white;
             text-align: center;
-            padding: 2rem;
+            padding: 1.5rem;
+            font-size: 0.9rem;
         }
 
         footer p {
+            margin-top: 0.5rem !important;
+            line-height: 1.6;
             opacity: 0.8;
         }
 
@@ -626,34 +639,97 @@
         @media (max-width: 768px) {
             .nav-links {
                 gap: 1rem;
-                font-size: 0.9rem;
+                font-size: 0.75rem;
+            }
+            nav {
+                padding: 0 1rem;
+            
+            }
+            .logo {
+                front-size: 1.3rem;
+            } 
+            .logo-img {
+                width: 35px;
+                height: 35px;
+            }
+            .service-card {
+                padding: 1.5rem;
+            }
+            .btn {
+                width: 100%;
+                max-width: 280px;
+            }
+            .hero {
+                padding: 120px 1.5rem 60px;
             }
 
             .hero h1 {
-                font-size: 2rem;
+                font-size: 1rem;
             }
 
             .hero p {
-                font-size: 1.1rem;
+                font-size: 1rem;
             }
 
             .stats {
-                gap: 1.5rem;
+                gap: 2rem;
+                flex-direction: column;
+                margin-top: 2rem;
             }
 
             .stat-number {
-                font-size: 2rem;
+                font-size: 2.5rem;
+            }
+            .stat-label {
+                font-size: 2.5rem
+            }
+            .coverage {
+                padding: 60px 1rem;
+
             }
 
             .coverage-content {
                 grid-template-columns: 1fr;
+                gap: 2rem;
             }
 
             .section-title {
                 font-size: 2rem;
+    
+            }
+            .services {
+                padding: 60px 1rem;
             }
 
             .services-grid {
                 grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .service-card {
+                padding: 1.5rem;
+            }
+            .expand-icon {
+                top: 1.5rem;
+                right: 1.5rem;
+                font-size: 1.2rem;
+            }
+            .service-icon svg {
+                width: 40px;
+                height: 40px;
+            }
+            .service-card h3 {
+                font-size: 1.3rem;
+                margin-top: 0.6rem;
+            }
+            .service-card p {
+                font-size: 0.95rem;
+            }
+            .service-examples li {
+                font-size: 0.9rem;
+                padding: 0.6rem 0;
+                padding-left: 1.2rem;
+            }
+            .more-services {
+                font-size: 0.85rem;
             }
         }
