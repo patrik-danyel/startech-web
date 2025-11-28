@@ -483,7 +483,7 @@
         .carousel-track {
             display: flex;
             gap: 2.5rem;
-            animation: scroll 30s linear infinite;
+            animation: scroll 55s linear infinite;
             width: fit-content;
         }
 
